@@ -11,6 +11,8 @@
   <packaging>jar</packaging>
 
   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
@@ -100,12 +102,12 @@
 
   <reporting>
     <plugins>
-      <plugin>
-        <!-- JUnit code coverage. -->
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>2.6</version>
-      </plugin>
+<!--      <plugin>-->
+<!--        &lt;!&ndash; JUnit code coverage. &ndash;&gt;-->
+<!--        <groupId>org.codehaus.mojo</groupId>-->
+<!--        <artifactId>cobertura-maven-plugin</artifactId>-->
+<!--        <version>3.2</version>-->
+<!--      </plugin>-->
     </plugins>
   </reporting>
 

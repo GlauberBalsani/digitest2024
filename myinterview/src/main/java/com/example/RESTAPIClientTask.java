@@ -4,8 +4,8 @@ package com.example;
  * This task expects you to create an implementation of a Rest API client.
  * Your code should call the API endpoint related below.
  * After receiving the JSON Response, print out how many records exists for each gender
- * API endpoint => https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda 
- * 
+ * API endpoint => https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda
+ *
  * >>> Bonus <<<
  * Generate a CSV file containing many records exists for each gender and save this file to AWS S3 Bucket
  * The filename need to contains your entire name, separated by uderscore. Example: john_lennon.csv
@@ -14,6 +14,16 @@ package com.example;
  */
 
 public class RESTAPIClientTask {
+    private static final String API_ENDPOINT
+            = "https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda";
 
-    // API endpoint => https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda 
+    private static final String CSV_FILE_NAME = "Glauber_Balsani.csv";
+
+    private static final String S3_BUCKET_NAME = "interview-digiage";
+
+    // API endpoint => https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda
+
+
+
+
 }
